@@ -25,7 +25,7 @@ export default {
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,6 +39,12 @@ html, body {
   text-align: center;
   color: #E5E5E5;
   width: 1358px;
+}
 
+@media (max-width: 768px) {
+  #app {
+    width: 100%;
+    padding: 0 16px;
+  }
 }
 </style>

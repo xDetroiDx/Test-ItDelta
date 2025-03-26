@@ -88,4 +88,61 @@ export default {
   background-color: white;
   color: black;
 }
+
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 768px) {
+  .user-profile {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 0;
+    padding: 20px;
+  }
+
+  .left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: -40px;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 0;
+    margin-right: 30px;
+  }
+
+  .name {
+    font-size: 18px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .right-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .button {
+    width: 100%;
+    max-width: 150px;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .primary {
+    width: 100%;
+  }
+
+  .secondary {
+    width: 100%;
+  }
+}
 </style>

@@ -22,4 +22,15 @@ export default {
   height: 192px;
   object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  .header {
+    height: 100px;
+  }
+
+  .header-image {
+    width: 100%;
+    height: auto;
+  }
+}
 </style>
