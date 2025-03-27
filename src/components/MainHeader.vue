@@ -12,18 +12,30 @@ export default {
 
 <style scoped>
 .header {
+  display: flex;
   width: 100%;
   height: 300px;
   overflow: hidden;
 }
 
 .header-image {
+  display: flex;
   width: 1358px;
   height: 192px;
-  object-fit: cover;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 880px) {
+  .header {
+    height: 100px;
+  }
+
+  .header-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1355px) {
   .header {
     height: 100px;
   }

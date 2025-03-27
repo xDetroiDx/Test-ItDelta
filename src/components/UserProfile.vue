@@ -90,7 +90,7 @@ export default {
 }
 
 /* Медиазапрос для мобильных устройств */
-@media (max-width: 768px) {
+@media (max-width: 1355px) {
   .user-profile {
     width: 100%;
     flex-direction: column;

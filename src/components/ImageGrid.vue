@@ -222,7 +222,7 @@ export default {
   right: 10px;
   background: none;
   border: none;
-  font-size: 24px;
+  font-size: 32px;
   cursor: pointer;
   color: #333;
 }
@@ -324,8 +324,15 @@ export default {
   font-size: 14px;
 }
 
+@media (max-width: 1355px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  } 
+}
+
 /* Медиазапросы для мобильных устройств */
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   .image-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -353,6 +360,13 @@ export default {
 
   .popup-save-button {
     width: 100%;
+  }
+
+  .close-button {
+    font-size: 32px;
+    color: #000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
   }
 }
 </style>

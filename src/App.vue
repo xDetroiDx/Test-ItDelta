@@ -41,9 +41,9 @@ html, body {
   width: 1358px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1355px) {
   #app {
-    width: 100%;
+    width: 98%;
     padding: 0 16px;
   }
 }
